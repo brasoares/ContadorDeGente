@@ -1,6 +1,11 @@
 // src/PlotlyChart.js
 import React from "react";
-import Plot from "react-plotly.js";
+//import Plot from "react-plotly.js";
+//esse import gera erro..
+// ver https://github.com/plotly/react-plotly.js/issues/272
+// sugestão do forum:
+import dynamic from "next/dynamic";
+const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
 
 /* tentativa de colocar labels dentro das barras...
 
