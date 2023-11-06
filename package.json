@@ -1,0 +1,9 @@
+{
+  "name": "Contador de Gente",
+  "version": "1.0.0",
+  "description": "Fictitious database for our project on MackLeaps",
+  "author": "Henoc Dev",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

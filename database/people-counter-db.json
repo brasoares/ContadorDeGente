@@ -1,0 +1,42 @@
+{
+  "campus": [
+    {
+      "name": "Alphaville",
+      "reception": {
+        "in": 10,
+        "out": 5
+      },
+      "library": {
+        "in": 20,
+        "out": 18
+      },
+      "canteen": {
+        "in": 50,
+        "out": 35
+      },
+      "teachers_room": {
+        "in": 5,
+        "out": 2
+      }
+    },
+    {
+      "name": "Higienópolis",
+      "reception": {
+        "in": 18,
+        "out": 9
+      },
+      "library": {
+        "in": 28,
+        "out": 17
+      },
+      "canteen": {
+        "in": 59,
+        "out": 33
+      },
+      "teachers_room": {
+        "in": 7,
+        "out": 5
+      }
+    }
+  ]
+}
